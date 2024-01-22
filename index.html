@@ -41,7 +41,7 @@
     <!-- header section-->
     <header class="max-w-[95%] lg:max-w-5xl mx-auto">
         <!-- nav bar start -->
-        <nav class="navbar bg-base-100 py-3 lg:py-8">
+        <nav class="navbar px-0 py-3 lg:py-8">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -120,8 +120,8 @@
 
             </div>
             <div
-                class="lg:translate-x-[500px] lg:-translate-y-[190px] p-8 rounded-2xl bg-secondary-color text-white max-w-[500px]">
-                <h3 class="text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
+                class="lg:absolute lg:translate-x-[500px] lg:-translate-y-[190px] p-4 lg:p-8 mt-4 lg:mt-0 rounded-2xl bg-secondary-color text-white max-w-[500px]">
+                <h3 class="text-xl lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
                 <p class="text-[rgba(255,255,255,0.60)]">Discover hockey excellence online with gear, stats, and
                     vibrant community.
                 </p>
@@ -129,7 +129,58 @@
         </section>
     </header>
     <!-- main section -->
-    <main></main>
+    <main class="max-w-[95%] lg:max-w-5xl mx-auto">
+        <!-- Professional Hockeys Club section start -->
+        <section class="mt-16 lg:mt-24">
+            <h2 class="text-2xl lg:text-4xl font-extrabold text-center mb-6">Professional Hockeys Club</h2>
+            <p class="text-[rgba(19,19,24,0.60)] max-w-[600px] mx-auto text-center">Elevate your allegiance with our
+                Professional Hockey Club – where passion meets precision on and off the ice, uniting fans worldwide.
+            </p>
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-12">
+                <!-- progress 1 -->
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="radial-progress text-[#FF4240] -rotate-180"
+                        style="--value:80; --size:8rem; --thickness: 0.8rem;" role="progressbar"><span
+                            class="text-secondary-color text-3xl font-extrabold rotate-180">80%</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-secondary-color">Prayer Facility</h2>
+                    <p class="text-[rgba(19,19,24,0.60)] text-center">Find solace in our prayer facility – a serene
+                        space for
+                        reflection and connection.</p>
+                </div>
+                <!-- progress 2 -->
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="radial-progress text-[#49D293] -rotate-180"
+                        style="--value:90; --size:8rem; --thickness: 0.8rem;" role="progressbar"><span
+                            class="text-secondary-color text-3xl font-extrabold rotate-180">90%</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-secondary-color">Experienced Coach</h2>
+                    <p class="text-[rgba(19,19,24,0.60)] text-center">Elevate your skills with our experienced coaches –
+                        unlocking your full potential on the path to success.</p>
+                </div>
+                <!-- progress 3 -->
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="radial-progress text-[#FFB546] -rotate-180"
+                        style="--value:85; --size:8rem; --thickness: 0.8rem;" role="progressbar"><span
+                            class="text-secondary-color text-3xl font-extrabold rotate-180">85%</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-secondary-color">Senior Player</h2>
+                    <p class="text-[rgba(19,19,24,0.60)] text-center">Excel under the guidance of seasoned mentors –
+                        empowering senior players for peak performance.</p>
+                </div>
+                <!-- progress 4 -->
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="radial-progress text-[#4C8DF1] -rotate-180"
+                        style="--value:70; --size:8rem; --thickness: 0.8rem;" role="progressbar"><span
+                            class="text-secondary-color text-3xl font-extrabold rotate-180">70%</span>
+                    </div>
+                    <h2 class="text-2xl font-semibold text-secondary-color">Training Ground</h2>
+                    <p class="text-[rgba(19,19,24,0.60)] text-center">Optimize performance in our cutting-edge training
+                        ground – where excellence is forged through innovation.</p>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- footer sections -->
     <footer></footer>
 </body>
