@@ -39,7 +39,7 @@
 
 <body class="font-manrope">
     <!-- header section-->
-    <header class="max-w-[95%] lg:max-w-[80%] mx-auto">
+    <header class="max-w-[95%] lg:max-w-5xl mx-auto">
         <!-- nav bar start -->
         <nav class="navbar bg-base-100 py-3 lg:py-8">
             <div class="navbar-start">
@@ -83,6 +83,50 @@
                 <a class="btn bg-primary-color text-white hover:text-secondary-color">Get Ticket</a>
             </div>
         </nav>
+        <!-- banner added -->
+        <section>
+            <div class="carousel w-full">
+                <!-- slide 1 -->
+                <div id="slide1"
+                    class="carousel-item relative w-full bg-[url('./images/1.png')] bg-no-repeat bg-cover rounded-2xl bg-center h-[335px] lg:h-[550px]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3"
+                            class="btn btn-circle bg-secondary-color border-0 text-white text-xl hover:text-secondary-color">❮</a>
+                        <a href="#slide2"
+                            class="btn btn-circle bg-secondary-color border-0 text-white text-xl hover:text-secondary-color">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2"
+                    class="carousel-item relative w-full bg-[url('./images/2.png')] bg-no-repeat bg-cover rounded-2xl bg-center  h-[335px] lg:h-[550px]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1"
+                            class="btn btn-circle bg-secondary-color border-0 text-white text-xl hover:text-secondary-color">❮</a>
+                        <a href="#slide3"
+                            class="btn btn-circle bg-secondary-color border-0 text-white text-xl hover:text-secondary-color">❯</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3"
+                    class="carousel-item relative w-full bg-[url('./images/3.png')] bg-no-repeat bg-cover rounded-2xl bg-center h-[335px] lg:h-[550px]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2"
+                            class="btn btn-circle bg-secondary-color border-0 text-white text-xl hover:text-secondary-color">❮</a>
+                        <a href="#slide1"
+                            class="btn btn-circle bg-secondary-color border-0 text-white text-xl hover:text-secondary-color">❯</a>
+                    </div>
+                </div>
+                <!-- badge -->
+
+            </div>
+            <div
+                class="lg:translate-x-[500px] lg:-translate-y-[190px] p-8 rounded-2xl bg-secondary-color text-white max-w-[500px]">
+                <h3 class="text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
+                <p class="text-[rgba(255,255,255,0.60)]">Discover hockey excellence online with gear, stats, and
+                    vibrant community.
+                </p>
+            </div>
+        </section>
     </header>
     <!-- main section -->
     <main></main>
